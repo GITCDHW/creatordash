@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
+/* Apply Inter font and light gray background to body */
 body {
-  height: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: #F5F5F5; /* secondary color from tailwind.config.js */
+  color: #2c2c2c; /* primary text color */
 }
